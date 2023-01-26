@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-main{
+main {
   max-width: 360px;
 }
 
@@ -44,6 +44,12 @@ main{
   padding: 1rem 2rem 2rem 2rem;
 }
 
-footer{
+footer {
   margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
 }
