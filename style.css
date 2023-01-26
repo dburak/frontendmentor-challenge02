@@ -7,16 +7,15 @@
 body {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
-  font-size: 15px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-.container {
+main{
   max-width: 360px;
-  margin: 0 auto;
 }
 
 .card {
@@ -32,15 +31,17 @@ body {
 }
 
 .title {
+  font-size: 10px;
   text-align: center;
   color: hsl(218, 44%, 22%);
   padding: 0 2rem;
 }
 
 .desc {
+  font-size: 15px;
   text-align: center;
   color: hsl(220, 15%, 55%);
-  padding: 1rem 3rem 2rem 3rem;
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .attribution {
